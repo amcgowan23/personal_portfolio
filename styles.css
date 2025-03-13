@@ -1,0 +1,173 @@
+*{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    color:black;
+    font-weight: normal;
+    font-size: 16px;
+}
+<html>
+<head>
+    <title>Abbi's Bio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #ced2cc;
+            color: #444;
+        }
+        header {
+            background-color: #ced2cc;
+            color: #;
+            padding: 25px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            color: #0f0f0f;
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        p {
+            color: #0f0f0f;
+        }
+        nav {
+            color: #f0e6e6;
+            background-color: #ced2cc;
+            /* Dark Gray */
+            text-align: center;
+            padding: 12px 0;
+        }
+        nav a {
+            color: #0f0f0f;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+        }
+
+        section  {
+            text-align: center;
+            padding: 25px;
+            margin: 20px auto;
+            max-width: 900px;
+            background-color: #ced2cc;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+        section:hover {
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        }
+        section h2 {
+            color: #0f0f0f;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        ul {
+            color: #0f0f0f;
+            list-style: none
+            padding: 0;
+        }
+        ul li {
+            margin: 12px 0;
+            font-size: 1.2rem;
+        }
+        ul li strong {
+            color: #0f0f0f;
+        }
+        form {
+            max-width: 650px;
+            margin: 25px auto;
+        }
+        form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        form input,
+        form textarea,
+        form button {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 18px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        form input:focus,
+        form textarea:focus {
+            border-color: #6985a3;
+            outline: none;
+        }
+        form button {
+            background-color: #ced2cc;
+            color: #0f0f0f;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: #32659c;
+        }
+        form button:active {
+            background-color: #32659c;
+        }
+    </style>
+</head>
+<body>
+<header>
+<h1>Abbi's Portfolio</h1>
+<p>Your favorite humanist who happens to work in tech</p>
+</header>
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+a{
+    color:black;
+}
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  <!--headshot styling-->
+  #img-div {
+    background-color: #ced2cc;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+
+  
+
+  
+  
